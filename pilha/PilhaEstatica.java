@@ -1,3 +1,5 @@
+package pilha;
+
 public class PilhaEstatica<T> { // <T> tipo generico q permite armazenar qlqer tipo de objeto
     private int top = -1; // topo da pilha (-1 pq a pilha está vazia)
     private T[] data; // array generico

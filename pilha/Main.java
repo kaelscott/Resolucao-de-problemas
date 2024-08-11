@@ -1,3 +1,5 @@
+package pilha;
+
 public class Main {
     public static void main(String[] args) {
         PilhaEstatica<Integer> pilha = new PilhaEstatica<>(5);
